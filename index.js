@@ -44,8 +44,8 @@ function getLocation() {
             map.innerHTML = `<iframe 
                             src="https://maps.google.com?q=+${position.coords.latitude},+${position.coords.longitude}&amp;output=embed"
                             class="w-100 "
-                            "style =height:200;"
-                            scrolling = "no";
+                            height="200"
+                            scrolling = "no"
                             loading="lazy"
                             allow="geolocation" >
                             </iframe>`  
